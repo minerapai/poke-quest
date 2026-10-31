@@ -13,6 +13,13 @@
 
 받은 jar 파일을 마인크래프트(또는 서버) 폴더의 `mods` 폴더에 넣으면 됩니다. 다른 버전은 [Releases](https://github.com/minerapai/poke-quest/releases) 에 있습니다.
 
+## 필요한 데이터팩 ⚠
+
+| 데이터팩 | 없으면 |
+|---|---|
+| **COBBLEVERSE-RCT-DP** (COBBLEVERSE 모드팩에 들어 있음) | 관동~신오 관장, 사천왕, 챔피언이 없어서 퀘스트를 진행할 수 없습니다. |
+| **[Unova-Paldea Leaders](https://github.com/minerapai/unova-paldea-leaders)** (따로 설치) | 하나~팔데아 시리즈가 없어서 `/시리즈` 화면에서 그 지방들이 잠긴 채로 나오고, 신오 다음으로 진행할 수 없습니다. |
+
 ## 기능
 
 - 퀘스트 화면에서 지금 할 일과 보상 확인
