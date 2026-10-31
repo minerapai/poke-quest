@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "pokequest",
+  "version": "${version}",
+  "name": "Poke Quest",
+  "description": "Server side guide quest from the first catch to the Sinnoh champion (gyms, leagues, pokedex) with rewards, and a rival that waits at some steps (/quest). Clients do not need this mod.",
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "kr.pokequest.PokeQuest"
+    ]
+  },
+  "mixins": [
+    "pokequest.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.1",
+    "fabric-api": "*",
+    "cobblemon": ">=1.7.0",
+    "rctmod": "*",
+    "rctapi": "*"
+  }
+}
